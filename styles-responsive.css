@@ -1,0 +1,169 @@
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+
+    /* Ajustes del header */
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-info span {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    /* Ajustes del menú de navegación */
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu a {
+        font-size: 18px;
+        display: block;
+        padding: 10px;
+    }
+
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        color: #2196f3;
+    }
+
+    /* Ajustes del banner */
+    .banner {
+        height: 300px;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Ajustes de la información */
+    .info h1 {
+        font-size: 30px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+
+    /* Ajustes de las cards */
+    .cards h2 {
+        font-size: 30px;
+    }
+
+    .cards p {
+        font-size: 18px;
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Ajustes de la sección del equipo */
+    .team-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-title {
+        font-size: 30px;
+    }
+
+    .team-card {
+        max-width: 100%;
+    }
+
+    /* Ajustes de los botones de servicios */
+    .services h1 {
+        font-size: 30px;
+    }
+
+    .services p {
+        font-size: 18px;
+    }
+
+    .menu-services {
+        flex-direction: column;
+    }
+
+    .service-btn {
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .service-content {
+        padding: 15px;
+    }
+
+    .service-content li {
+        font-size: 18px;
+    }
+
+    /* Ajustes de contacto */
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-column {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    /* Ajustes del footer */
+    footer {
+        padding: 10px;
+    }
+
+    /* Ajustes del botón de WhatsApp */
+    .whatsapp-button {
+        right: 20px;
+        bottom: 20px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .whatsapp-button img {
+        width: 80px;
+        height: 80px;
+    }
+}
